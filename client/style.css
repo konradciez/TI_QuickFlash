@@ -1,0 +1,143 @@
+#content0, #content1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: fit-content;
+	max-width: 100%;
+}
+
+select {
+	background: #F9DEDC;
+	color: #002E3D;
+	border: none;
+	border-radius: 10px;
+	padding: 8px 16px;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: bold;
+	outline: none;
+	transition: background 0.2s, color 0.2s;
+}
+
+select:focus {
+	background: #F6CECB;
+}
+
+option {
+	background: #F9DEDC;
+	color: #002E3D;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input {
+	background: #F9DEDC;
+	color: #002E3D;
+	border: none;
+	border-radius: 10px;
+	padding: 8px 16px;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 2px 0;
+	outline: none;
+	transition: background 0.2s, color 0.2s;
+}
+
+input:focus {
+	background: #F6CECB;
+}
+
+.card {
+	background: #fff;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+button {
+	background: #F6CECB;
+	color: #002E3D;
+	border: none;
+	border-radius: 10px;
+	padding: 8px 16px;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+	background: #F3BDBA;
+	color: #002E3D;
+}
+
+body {
+	background: #001F29;
+	font-family: Georgia, serif;
+	font-weight: bold;
+}
+.navbar {
+	padding: 14px;
+	background: #467599;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.app-name {
+	color: #FAE1DF;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+#sign-in {
+	margin-left: auto;
+	color: #FAE1DF;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	text-align: right;
+}
+
+.flashcard-element {
+	border-radius: 10px;
+	background: #FCEFEE;
+	padding: 16px 16px;
+	margin: 12px;
+	width: 256px;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+#flashcard-element-btn {
+	margin: 1px;
+}
+
+.flashcard-element-name {
+	color: #002E3D;
+	font-size: 24px;
+	text-align: center;
+	overflow-wrap: break-word;
+	max-width: 100%;
+}
+
+#content0 {
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+#content0 label {
+	font-size: 16px;
+}
+
+.flashcard-study {
+	border-radius: 10px;
+	background: #FCEFEE;
+	padding: 26px 26px;
+	margin: 20px;
+	text-align: center;
+}
