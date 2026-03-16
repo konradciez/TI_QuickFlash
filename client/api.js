@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5200';
+const API_URL = 'https://ti-quickflash.onrender.com/';
 
 document.addEventListener('DOMContentLoaded', () => {
 	_refresh().finally(() => {
