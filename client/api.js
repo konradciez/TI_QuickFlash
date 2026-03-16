@@ -121,7 +121,7 @@ function refresh_page() {
 	const content1 = document.getElementById('content1');
 	const signIn = document.getElementById('sign-in');
 
-	content0.innerHTML = 'e.g. username: ad, password: ad';
+	content0.innerHTML = 'Please <b>sign in<b/></br>Demo account - username: <b>ad<b/>, password: <b>ad<b/>';
 	content1.innerHTML = '';
 
 	if (!isLoggedIn()) {
