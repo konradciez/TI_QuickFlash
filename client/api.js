@@ -117,10 +117,12 @@ function _refresh() {
 }
 
 function refresh_page() {
+	const backButton = document.getElementById('back-button');
 	const content0 = document.getElementById('content0');
 	const content1 = document.getElementById('content1');
 	const signIn = document.getElementById('sign-in');
 
+	backButton.style.visibility = 'hidden';
 	content0.innerHTML = 'demo account - username: ad, password: ad';
 	content1.innerHTML = '';
 
@@ -172,6 +174,9 @@ function load_add_new_set() {
 }
 
 function admin_page() {
+	const backButton = document.getElementById('back-button');
+	backButton.style.visibility = 'visible';
+
 	const content0 = document.getElementById('content0');
 	const content1 = document.getElementById('content1');
 	content0.innerHTML = '<div>username; role; set_count:</div>';
@@ -317,6 +322,9 @@ function shuffleArray(arr) {
 
 
 function render_study_flashcard() {
+	const backButton = document.getElementById('back-button');
+	backButton.style.visibility = 'visible';
+	
 	const content0 = document.getElementById('content0');
 	const content1 = document.getElementById('content1');
 
@@ -370,6 +378,9 @@ function escapeHtml(text) {
 }
 
 function edit(name) {
+	const backButton = document.getElementById('back-button');
+	backButton.style.visibility = 'visible';
+
 	const content0 = document.getElementById('content0');
 	const content1 = document.getElementById('content1');
 
